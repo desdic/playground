@@ -2,7 +2,7 @@
 GOC=go
 
 default: all
-all: nooption option config override clean
+all: nooption option config override other clean
 
 build:
 	@$(GOC) build
@@ -18,6 +18,9 @@ config: build
 
 override: build
 	@./cobraviper msg --config ./config.yaml --log 'knigts.of.Ekky-ekky-ekky-ekky-zBangzoom.Boingznourrrwringnmmm' --msg 'We are now *no longer* the Knights Who Say \"Ni\"!'
+
+other: build
+	@./cobraviper msg
 
 clean:
 	@rm ./cobraviper
