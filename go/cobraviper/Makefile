@@ -23,4 +23,4 @@ other: build
 	@./cobraviper msg
 
 clean:
-	@rm -f ./cobraviper
+	@rm ./cobraviper
