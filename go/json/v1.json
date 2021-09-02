@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "kind": "ftp",
+  "address": "localhost",
+  "username": "root",
+  "password": "badbadbad"
+}
